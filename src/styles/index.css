@@ -13,9 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+#root{
+  display: flex;
+}
+
+.input-info, .cv {
+  width: 40%;
   margin: 0;
   display: flex;
+  flex-direction: column;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
